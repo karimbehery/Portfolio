@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Karim Behery">
+    <meta name="description" content="This is Karim Behery's Portfolio">
+    <title>Karim Behery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="#about" class="nav__a">About</a></li>
+                <li class="nav__li"><a href="#skills" class="nav__a">Skills</a></li>
+                <li class="nav__li"><a href="#projects" class="nav__a">Projects</a></li>
+                <li class="nav__li"><a href="#contact" class="nav__a">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="header__section">
+            <h1 class="h1">Karim Behery</h1>
+            <p class="header__p">IT Major | FrontEnd Developer</p>
+            <a href="#contact" class="header__a">Get in Touch</a>
+        </section>
+    </header>
+
+    <main class="main">
+
+        <article id="about">
+            <h2 class="h2">About Me</h2>
+            <section class="article__about">
+                <section class="flex">
+                    <img src="imgs/Profile.jpg" alt="personal image" class="about__img" height="273" width="273">
+                    <section class="about__container">
+                        <p class="about__p">
+                            Hello! I'm Karim Behery, a Front-End Developer with a passion for creating and scaling web applications. <br>
+                            I specialize in building efficient solutions using modern web technologies. <br>
+                            <span class="about__span">Languages:</span> Arabic (Native), English
+                            (Professional)
+                        </p>
+                    </section>
+                </section>
+            </section>
+        </article>
+
+        <article class="article-bg-color-f4" id="skills">
+            <h2 class="h2">Skills</h2>
+            <section class="section-bg-color-white">
+                <section class="article__skills">
+                    <h3>Front-End</h3>
+                    <p class="skills__p">
+                        <span class="p__html-css-span">HTML5 &amp; CSS3</span>
+                    </p>
+                    <p class="skills__p">
+                        <span class="p__js-react-span">JavaScript &amp; React</span>
+                    </p>
+                </section>
+            </section>
+        </article>
+
+        <article class="projects-article" id="projects">
+            <h2 class="h2">Projects</h2>
+            <section class="article__projects">
+
+                <section class="flex">
+                    <section class="projects__project">
+                        <img src="imgs/LTS.png" alt="The Little Taco Shop Website" class="project__img" width="2255" height="1259">
+                        <h3 class="project__h3">The Little Taco Shop</h3>
+                        <a href="https://github.com/karimbehery/The-Little-Taco-Shop.git" class="project__a" target="_blank">View on GitHub</a>
+                    </section>
+                    <section class="projects__project">
+                        <img src="imgs/Website_Project.png" alt="Website Project" class="project__img" width="2255" height="1259">
+                        <h3 class="project__h3">Website Project</h3>
+                        <a href="https://github.com/karimbehery/Website-Project.git" class="project__a" target="_blank">View on GitHub</a>
+                    </section>
+                </section>
+
+                <section class="svg-sec">
+                    <img src="imgs/svg.svg" alt="svg animation" class="projects__img">
+                </section>
+            </section>
+        </article>
+
+        <article class="contact-bg-color-f4" id="contact">
+            <h2 class="h2">Contact</h2>
+            <section class="contact__contact">
+                <section class="flex">
+                        <form action="https://httpbin.org/prost" class="form">
+                            <fieldset class="fieldset">
+                                <label for="name" class="label">Name:</label>
+                                <input type="text" name="name" id="name" required class="input">
+                                <label for="email" class="label">Email:</label>
+                                <input type="email" name="email" id="email" required class="input">
+                                <label for="message" class="label">Message:</label>
+                                <textarea name="message" id="message" class="textarea"></textarea>
+                            </fieldset>
+                            <button type="submit" class="button">Send Message</button>
+                        </form>
+                    <section class="contact__info">
+                        <h3 class="h3">Contact Info</h3>
+                        <p class="contact__p">Email: <a href="mailto:karimbehery3@gmail.com" class="contact__a">karimbehery3@gmail.com</a></p>
+                        <a href="https://www.linkedin.com/in/karimbehery/" class="contact__icon"  target="_blank"><i class="fa-brands fa-linkedin" style="color: #00689D"></i></a>
+                        <a href="https://github.com/karimbehery" class="contact__icon" target="_blank"><i class="fa-brands fa-github" style="color: #00689D"></i></a>
+                    </section>
+                </section>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <a href="https://github.com/karimbehery" target="_blank" class="footer__a">GitHub</a> |
+        <a href="https://www.linkedin.com/in/karimbehery/" target="_blank" class="footer__a">Linked In</a> |
+        <p class="footer__p">Karim Behery &copy; 2024</p>
+    </footer>
+</body>
+
+</html>
